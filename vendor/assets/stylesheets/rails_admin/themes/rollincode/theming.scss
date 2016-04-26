@@ -16,6 +16,11 @@
 @import "font-awesome";
 @import "icheck/flat/all";
 
+
+a[href='http://editor.froala.com']{
+    display:none !important;
+}
+
 @mixin transition($time) {
   -webkit-transition: all $time ease;
   -moz-transition: all $time ease;
